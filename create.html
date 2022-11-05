@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/create.css">
+</head>
+<body>
+        <div id="navbar">
+              <!-- navbar append hear -->
+        </div>
+
+        <!-- post image -->
+        <div id="post">
+            <h2> Post image</h2>
+                <input type="text" id="id" placeholder="enter id">
+                <input type="text" id="caption" placeholder="entetr caption">
+                <input type="file" id="file">
+                <button id="upload">POST</button>
+        </div>
+
+        <!-- delete image -->
+        <div id="remove">
+            <h2>Delete image</h2>
+                 <input type="text" id="remove_id" placeholder="enter id">
+                 <button id="remove_btn">Delete</button>
+        </div>
+
+        <!-- update part -->
+        <div >
+               <h2>Update Caption</h2>
+                <input type="text" id="update_id" placeholder="enter id">
+                <input type="text" id="update_caption" placeholder="enter caption">
+                <button id="update" >Update Caption</button>
+        </div>
+
+        <h3 id="show_message"></h3>
+</body>
+</html>
+<script src="./src/create.js" type="module"></script>

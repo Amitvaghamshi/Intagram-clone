@@ -1,0 +1,13 @@
+#post{
+    margin-top: 20px;
+}
+
+#upload{
+    display: none;
+    margin-top: 20px;
+    background-color: rgb(237, 251, 251);
+    height: 25px;
+    border: 1px solid teal;
+    border-radius: 3px;
+    cursor: pointer;
+}
